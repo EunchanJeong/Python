@@ -1,4 +1,4 @@
-# 3. 달력
+# 달력
 
 def isLeafYear(year): # 윤년인지 알려주는 함수
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):

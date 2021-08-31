@@ -1,4 +1,4 @@
-# 2. 끝말 잇기
+# 끝말 잇기
 
 f = open('dict_test_utf8.TXT', 'r', encoding = 'utf-8')
 dic = {}

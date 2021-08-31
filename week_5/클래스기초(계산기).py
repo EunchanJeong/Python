@@ -1,4 +1,4 @@
-# 2.계산기 만들기
+# 계산기 만들기
 
 class Calc:
     def __init__(self, value = 0):  # 초기값

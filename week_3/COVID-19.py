@@ -1,4 +1,4 @@
-# 1. 코로나 확진자 통계
+# 코로나 확진자 통계
 
 def count_COVID_19(cities, yesterday, today):  # 도시별 어제와 오늘의 확진자 수를 보여주는 함수
 

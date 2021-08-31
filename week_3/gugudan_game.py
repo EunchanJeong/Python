@@ -1,4 +1,4 @@
-# 4. 구구단을 외자
+# 구구단을 외자
 
 import time
 import random

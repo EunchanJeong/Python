@@ -1,4 +1,4 @@
-# 5. 이자 원금 계산하기
+# 이자 원금 계산하기
 
 money  = int(input("원금을 입력하세요(원). "))
 interest_rate = int(input("금리를 입력하세요(%). "))
