@@ -1,5 +1,10 @@
 # 가위바위보 게임
 
+"""
+규칙
+- 3승을 하면 게임이 끝난다.
+"""
+
 import random
 
 computer_win, computer_lose = 0, 0

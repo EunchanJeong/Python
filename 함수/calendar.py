@@ -1,4 +1,4 @@
-# 달력
+# 3. 달력
 
 def isLeafYear(year): # 윤년인지 알려주는 함수
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
@@ -39,16 +39,13 @@ def draw_calendar(year, month):  # 달력을 출력해주는 함수
 
 year = 0
 month = 0
+
 while True:
-    year, month = input("달력? ").split()
-    year = int(year)
-    month = int(month)
+    print("달력")
+    year = int(input("년: "))
+    month = int(input("월: "))
 
-    if year >= 1921 and year <= 2200:
-        break
-    else:
-        print("1921년 1월부터 2200년 12월까지 달력을 표시할 수 있습니다.")
-        print("다시 입력해주세요.")
-        print()
+    draw_calendar(year, month) # 달력을 그려준다.
 
-draw_calendar(year, month) # 달력을 그려준다.
+    print()
+    print()
